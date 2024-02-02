@@ -14,6 +14,7 @@ class ProductController extends Controller
         $product->price =  $request->price;
         $product->save();
         return response()->json($product);
+        
 
 
     }
